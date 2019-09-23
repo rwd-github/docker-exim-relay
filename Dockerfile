@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-MAINTAINER Dmitry Seleznyov <selim013@gmail.com>
+MAINTAINER RWd <rwd-github@gmx.net>
 
 RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing add exim libcap
 
