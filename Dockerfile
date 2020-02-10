@@ -1,7 +1,5 @@
 FROM alpine:edge
 
-MAINTAINER RWd <rwd-github@gmx.net>
-
 RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing add exim libcap
 
 RUN mkdir -p /etc/exim/conf.d /var/log/exim /usr/lib/exim /var/spool/exim \
